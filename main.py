@@ -1,16 +1,70 @@
-# This is a sample Python script.
+# import random
+#
+# # tuple
+# months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November",
+#           "December")
+# pi_day = months[2]
+# print(f"Pi Day is in the month of {pi_day}!")
+#
+#
+# # set
+# birthday_locations = {"South Padre Island", "Destin", "Galveston"}
+# birthday_locations.update(["Hawaii", "Tokyo", "South Korea"])
+# print(birthday_locations)
+#
+#
+# # dictionary
+# class Sweepstakes:
+#
+#     contestants = {
+#         1: "Stephen Nguyen",
+#         2: "Hanh Nguyen",
+#         3: "Patty Nguyen",
+#         4: "Mario Nguyen",
+#         5: "Minh Nguyen",
+#     }
+#
+#     random_winner = random.choice(list(contestants.values()))
+#     print(f"The winner for the 2021 Sweepstakes is.....{random_winner}!!!")
+#
+#
+# my_family = {
+#     "member1": {
+#         "first_name": "Hanh",
+#         "last_name": "Nguyen",
+#         "relationship": "Wife"
+#     },
+#     "member2": {
+#         "first_name": "Patty",
+#         "last_name": "Nguyen",
+#         "relationship": "Wife"
+#     },
+#     "member3": {
+#         "first_name": "Mario",
+#         "last_name": "Nguyen",
+#         "relationship": "Wife"
+#     },
+# }
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from linkedlist import LinkedList
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    linked_list = LinkedList()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    linked_list.append_node(55)
+    linked_list.append_node(60)
+    linked_list.append_node(65)
+
+
+
+
+
+
+
+
+
+
+
+
+
